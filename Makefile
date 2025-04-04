@@ -1,6 +1,6 @@
 KERNEL_ELF = kernel.elf
 LIMINE_DIR = limine
-SRC = src/kernel.c src/fs.c src/vga.c src/isr.c src/idt.c src/keyboard.c src/ai.c
+SRC = src/kernel.c src/fs.c src/vga.c src/isr.c src/idt.c src/keyboard.c src/ai.c src/sentra.c src/memory.c
 OBJ = $(SRC:.c=.o) boot/boot.o
 
 CC = x86_64-elf-gcc
